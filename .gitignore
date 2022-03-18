@@ -1,0 +1,16 @@
+experiments/experiment_finet/summary
+experiments/experiment_finet/test_metrics_best.json
+experiments/experiment_finet/test_metrics_latest.json
+experiments/experiment_finet/test_model_best.pth
+experiments/experiment_finet/train.log
+experiments/experiment_finet/val_metrics_best.json
+experiments/experiment_finet/val_metrics_latest.json
+experiments/experiment_finet/val_model_best.pth
+experiments/experiment_finet/evaluate.log
+dataset/data/modelnet_os
+dataset/data/modelnet_ts
+dataset/data/OS_data.zip
+dataset/data/TS_data.zip
+experiments/experiment_finet/model_latest.pth
+__pycache__
+*/__pycache__

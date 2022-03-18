@@ -1,0 +1,9 @@
+coloredlogs==15.0.1
+h5py==3.5.0
+megengine==1.7.0
+numpy==1.21.4
+scipy==1.7.2
+tensorboardX==2.4
+termcolor==1.1.0
+tqdm==4.62.3
+transforms3d==0.3.1

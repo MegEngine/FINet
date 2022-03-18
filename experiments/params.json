@@ -1,0 +1,42 @@
+{
+    "dataset_type": "modelnet_ts",
+    "transform_type": "modelnet_ts_rpmnet_noise",
+    "net_type": "finet",
+    "net_config": {
+        "dropout_ratio": 0.3,
+        "reg_t_feats": "tr-t",
+        "reg_R_feats": "tr-tr"
+    },
+    "loss_type": "finet",
+    "loss_alpha1": 1,
+    "loss_alpha2": 4,
+    "loss_alpha3": 0.001,
+    "loss_alpha4": 0.0025,
+    "margin": [
+        0.01,
+        0.01
+    ],
+    "eval_type": [
+        "val",
+        "test"
+    ],
+    "major_metric": "score",
+    "metric_rule": "Descende",
+    "num_points": 1024,
+    "rot_mag": 45,
+    "trans_mag": 0.5,
+    "partial_ratio": [
+        0.7,
+        0.7
+    ],
+    "noise_std": 0.01,
+    "titer": 4,
+    "overlap_dist": 0.1,
+    "learning_rate": 1e-4,
+    "gamma": 1,
+    "num_epochs": 10000,
+    "train_batch_size": 8,
+    "eval_batch_size": 32,
+    "save_summary_steps": 100,
+    "num_workers": 8
+}
