@@ -8,7 +8,7 @@
 
 
 
-This is the official implementation (MegEngine implementation) of our AAAI2022 paper FINet.
+This is the official implementation (MegEngine implementation) of our AAAI2022 paper [FINet](https://www.aaai.org/AAAI22Papers/AAAI-549.XuH.pdf).
 
 Our presentation video: [[Youtube](https://www.youtube.com/watch?v=XDmE9iSx9WM)][[Bilibili](https://www.bilibili.com/video/BV1z44y1s7up/)].
 
