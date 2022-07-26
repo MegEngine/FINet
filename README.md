@@ -12,6 +12,10 @@ This is the official implementation (MegEngine implementation) of our AAAI2022 p
 
 Our presentation video: [[Youtube](https://www.youtube.com/watch?v=XDmE9iSx9WM)][[Bilibili](https://www.bilibili.com/video/BV1z44y1s7up/)].
 
+## Abstract
+Data association is important in the point cloud registration. In this work, we propose to solve the partial-to-partial registration from a new perspective, by introducing multi-level feature interactions between the source and the reference clouds at the feature extraction stage, such that the registration can be realized without the attentions or explicit mask estimation for the overlapping detection as adopted previously. Specifically, we present FINet, a feature interactionbased structure with the capability to enable and strengthen the information associating between the inputs at multiple stages. To achieve this, we first split the features into two components, one for rotation and one for translation, based on the fact that they belong to different solution spaces, yielding a dual branches structure. Second, we insert several interaction modules at the feature extractor for the data association. Third, we propose a transformation sensitivity loss to obtain rotation-attentive and translation-attentive features. Experiments demonstrate that our method performs higher precision and robustness compared to the state-of-the-art traditional and learning-based methods
+
+
 ## Our Poster
 
 ![image](./images/FINet_poster.png)
