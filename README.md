@@ -1,5 +1,13 @@
 # [AAAI 2022] FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration
 
+<h3 align = "center">Hao Xu$^{1,2}$, Nianjin Ye$^2$, Guanghui Liu$^1$, Bing Zeng$^1$, Shuaicheng Liu$^{1,2}$</h3>
+<h3 align = "center"> $^1$ University of Electronic Science and Technology of China</center></h3>
+<h3 align = "center">$^2$ Megvii Research</h3>
+                     
+                       
+
+
+
 This is the official implementation (MegEngine implementation) of our AAAI2022 paper FINet.
 
 Our presentation video: [[Youtube](https://www.youtube.com/watch?v=XDmE9iSx9WM)][[Bilibili](https://www.bilibili.com/video/BV1z44y1s7up/)].
