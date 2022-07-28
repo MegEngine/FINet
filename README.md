@@ -1,13 +1,14 @@
 # [AAAI 2022] FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration
 
-<h4 align = "center">Hao Xu$^{1,2}$, Nianjin Ye$^2$, Guanghui Liu$^1$, Bing Zeng$^1$, Shuaicheng Liu$^{1,2}$</h4>
+<h4 align = "center">Hao Xu$^{1,2}$, Nianjin Ye$^2$, Guanghui Liu$^1$, Bing Zeng$^1$, Shuaicheng Liu$^1$</h4>
 <h4 align = "center"> $^1$ University of Electronic Science and Technology of China</center></h4>
 <h4 align = "center">$^2$ Megvii Research</h4>
                      
                        
 This is the official implementation (MegEngine implementation) of our AAAI2022 paper [FINet](https://www.aaai.org/AAAI22Papers/AAAI-549.XuH.pdf).
 
-## Presentation video: [[Youtube](https://www.youtube.com/watch?v=XDmE9iSx9WM)][[Bilibili](https://www.bilibili.com/video/BV1z44y1s7up/)].
+## Presentation video: 
+[[Youtube](https://www.youtube.com/watch?v=XDmE9iSx9WM)] [[Bilibili](https://www.bilibili.com/video/BV1z44y1s7up/)].
 
 ## Abstract
 Data association is important in the point cloud registration. In this work, we propose to solve the partial-to-partial registration from a new perspective, by introducing multi-level feature interactions between the source and the reference clouds at the feature extraction stage, such that the registration can be realized without the attentions or explicit mask estimation for the overlapping detection as adopted previously. Specifically, we present FINet, a feature interactionbased structure with the capability to enable and strengthen the information associating between the inputs at multiple stages. To achieve this, we first split the features into two components, one for rotation and one for translation, based on the fact that they belong to different solution spaces, yielding a dual branches structure. Second, we insert several interaction modules at the feature extractor for the data association. Third, we propose a transformation sensitivity loss to obtain rotation-attentive and translation-attentive features. Experiments demonstrate that our method performs higher precision and robustness compared to the state-of-the-art traditional and learning-based methods
