@@ -1,6 +1,6 @@
 # [AAAI 2022] FINet: Dual Branches Feature Interaction for Partial-to-Partial Point Cloud Registration
 
-<h4 align = "center">Hao Xu$^{1,2}$, Nianjin Ye$^2$, Guanghui Liu$^1$, Bing Zeng$^1$, Shuaicheng Liu$^1$</h4>
+<h4 align = "center">Hao Xu<sup>1,2</sup>, Nianjin Ye<sup>2</sup>, Guanghui Liu<sup>1</sup>, Bing Zeng<sup>1</sup>, Shuaicheng Liu<sup>1</sup></h4>
 <h4 align = "center"> $^1$ University of Electronic Science and Technology of China</center></h4>
 <h4 align = "center">$^2$ Megvii Research</h4>
                      
